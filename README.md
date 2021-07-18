@@ -1,5 +1,6 @@
 # Automated Testing using selenium of TheSparksFoundation Website
 Sparks Foundation Web Development Internship Project : Automated Testing
+
 I have used selenium to create test cases to test the website 
 thesparksfoundation.sg
 
