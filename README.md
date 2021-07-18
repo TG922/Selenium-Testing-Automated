@@ -24,7 +24,7 @@ bar appears, the name on about us page is correct, etc.
 
 
 
-## Environment Variable
+## Environment Variables
 
 To run this project,we need download Chrome web Driver and set the path.
 
