@@ -1,8 +1,8 @@
 
 # Automated_Testing_TSF_Website
 
-used selenium to create test cases to test the website 
-thesparksfoundation.sg . 
+I have used selenium to create test cases to test the website 
+thesparksfoundation.sg
 
 Task:-
  
