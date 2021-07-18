@@ -26,6 +26,6 @@ bar appears, the name on about us page is correct, etc.
 
 ## Environment Variables
 
-To run this project,we need to download Chrome web Driver and set the path.
+To run this project, we need to download Chrome web Driver and set the path.
 
 https://chromedriver.chromium.org/downloads
