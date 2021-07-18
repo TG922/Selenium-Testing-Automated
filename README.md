@@ -32,7 +32,7 @@ bar appears, the name on about us page is correct, etc.
  
   <li> <b> Database Tech: </b>
      <p align="left"> 
-       <a href="https://www.python.com/" target="_blank">
+       <a href="https://www.python.org/" target="_blank">
          <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg" alt="mysql" width="40" height="40"/> 
        </a> 
 </p>
