@@ -28,7 +28,7 @@ bar appears, the name on about us page is correct, etc.
 
 ## SOFTWARE USED
 <ul type="square">
-  <li> <b> Python: </b>
+  <li> <b> Python(programming Language): </b>
      <p align="left"> 
        <a href="https://www.python.org/" target="_blank">
          <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original-wordmark.svg" alt="python" width="40" height="40"/> 
