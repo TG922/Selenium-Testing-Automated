@@ -28,8 +28,6 @@ bar appears, the name on about us page is correct, etc.
 
 ## SOFTWARE USED
 <ul type="square">
- 
- 
   <li> <b> Database Tech: </b>
      <p align="left"> 
        <a href="https://www.python.org/" target="_blank">
