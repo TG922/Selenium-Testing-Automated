@@ -1,7 +1,5 @@
 # Automated Testing using selenium of TheSparksFoundation Website
 Sparks Foundation Web Development Internship Project : Automated Testing
-A web application used to tranfer virtual money between users and once payment done an invoice will be generated.
-
 I have used selenium to create test cases to test the website 
 thesparksfoundation.sg
 
