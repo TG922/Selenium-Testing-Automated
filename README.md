@@ -1,4 +1,4 @@
-# Automated Testing of TheSparksFoundation Website using selenium
+# Automated Testing of Website TheSparksFoundation using python and selenium
 Sparks Foundation Web Development Internship Project : Automated Testing
 
 Here we have used selenium to create test cases to test the website 
