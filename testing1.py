@@ -13,6 +13,7 @@ driver.get('https://www.thesparksfoundationsingapore.org/')
 print("\n \n************** Let's Check For The TestCases *********************\n")
 
 ########################## TestCase 1: Title ###############################
+
 print("TestCase #1:")
 if(driver.title):
     print("Title Verification Successful: ",driver.title)
@@ -21,6 +22,7 @@ else:
 
 
 ########################## TestCase 2: Home button #########################
+
 print("TestCase #2:")
 try:
     driver.find_element_by_partial_link_text("The Sparks Foundation").click()
@@ -29,8 +31,8 @@ except NoSuchElementException:
     print("Home Link Doesn't Work!\n")
 
 
-
 ########################## TestCase 3: Check if navbar appears #########################
+
 print("TestCase #3:")
 try:
     driver.find_element_by_class_name("navbar")
@@ -38,14 +40,19 @@ try:
 except NoSuchElementException:
     print("Navbar Verification Failed!\n")
 
+
 ######################## TestCase 4: Scrolling down ########################################
+
 print("TestCase #4:")
 for i in range(0,1500,200):
     driver.execute_script(f"window.scrollTo(0, window.scrollY + {i})")
     time.sleep(1)
 print("scrolled down")
 
+
+
 ###################### TestCase 5: scrolling up ######################################
+
 print("TestCase #5:")
 driver.find_element_by_id("toTopHover").click()
 time.sleep(1)
@@ -53,6 +60,7 @@ print("scrolled up")
 
 
 ########################## TestCase 6: About Us Page #########################
+
 print("TestCase #6:")
 try:
     driver.find_element_by_link_text('About Us').click()
@@ -65,6 +73,7 @@ except NoSuchElementException:
 
 
 ########################## TestCase 7: Policies and Code #########################
+
 print('TestCase #7:')
 try:
     driver.find_element_by_link_text('Policies and Code').click()
@@ -78,6 +87,7 @@ except NoSuchElementException:
 
 
 ########################## TestCase 8: Workshop page #########################
+
 print('TestCase #8:')
 try:
     driver.find_element_by_link_text('Programs').click()
@@ -92,6 +102,7 @@ except NoSuchElementException:
 
 
 ########################## TestCase 9: Links Page #########################
+
 print("TestCase #9")
 try:
     driver.find_element_by_link_text('LINKS').click()
@@ -105,8 +116,8 @@ except NoSuchElementException:
     print("LINKS Verification Failed!\n")
 
 
-
 ########################## TestCase 10: Check If Logo Exists #########################
+
 print('TestCase #10:')
 try:
     driver.find_element_by_xpath('//*[@id="home"]/div/div[1]/h1/a/*').click()
@@ -116,17 +127,17 @@ except NoSuchElementException:
     print('No logo found!\n')
 
 
-
 ########################## TestCase 11:   Check the Form #########################
+
 print("TestCase #11:")
 try:
     driver.find_element_by_link_text('Join Us').click()
     time.sleep(3)
     driver.find_element_by_link_text('Why Join Us').click()
     time.sleep(3)
-    driver.find_element_by_name('Name').send_keys('jayesh')
+    driver.find_element_by_name('Name').send_keys('Tarun')
     time.sleep(3)
-    driver.find_element_by_name('Email').send_keys('jayeshpatidar29@gmail.com')
+    driver.find_element_by_name('Email').send_keys('gaurtarun@gmail.com')
     time.sleep(3)
     select =Select(driver.find_element_by_class_name('form-control'))
     time.sleep(3)
@@ -142,6 +153,7 @@ except NoSuchElementException:
 
 
 # ########################## TestCase 12:   Check the Contact us Page #########################
+
 print("TestCase #12:")
 try:
     driver.find_element_by_link_text("Contact Us").click()
@@ -162,14 +174,13 @@ except NoSuchElementException:
 
 # ########################## TestCase 13: again back to main page #########################
 
-
 print("TestCase #13:")
 driver.find_element_by_xpath("/html/body/div[1]/div/div[1]/h1/a").click()
 print(" again back to main page")
 time.sleep(3)
 
-# ########################## TestCase 14:  clicking 1-6 #########################
 
+# ########################## TestCase 14:  clicking 1-6 #########################
 
 print("TestCase #14:")
 
@@ -193,10 +204,10 @@ driver.find_element_by_xpath("/html/body/div[1]/div/div[2]/div/section/div/ol/li
 print(" clicked 6 community ")
 time.sleep(1)
 
-
 driver.execute_script("window.scrollTo(0, 500)")
 time.sleep(2)
 print("scrolled 500px")
+
 
 # ########################## TestCase 15: iframe for youtube #########################
 
@@ -210,18 +221,17 @@ element.click()
 
 print("YouTube video played")
 
-
 time.sleep(10)
 stop = driver.find_element_by_xpath("/html/body/div/div/div[1]/video").click()
 print("Pause Video\n")
 time.sleep(1.5)
-
 
 driver.refresh()
 time.sleep(2)
 driver.execute_script("window.scrollTo(0,document.body.scrollHeight)")
 print("page refreshed & Scrolled down\n")
 time.sleep(2)
+
 # ########################## TestCase 16: Jobs at Angel.co Portal #########################
 
 print("TestCase #16:")
@@ -248,10 +258,10 @@ driver.find_element_by_xpath("/html/body/div[6]/div/div[2]/div[1]/ul/li[3]/a").c
 print("Code for India page:- Success\n")
 time.sleep(8)
 
+
 # ########################## TestCase 19: Internships at Internshala ##################
 
 print("TestCase #19:")
-
 
 driver.find_element_by_xpath("/html/body/div[6]/div/div[2]/div[3]/ul/li/a").click()
 print("Internships at Internshala page:- Success\n")
